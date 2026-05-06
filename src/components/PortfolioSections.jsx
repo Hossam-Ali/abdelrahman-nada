@@ -96,7 +96,7 @@ export const ExperienceTimeline = React.memo(({ cvData }) => (
           <p style={{ marginBottom: '2rem', color: 'var(--text-muted)' }}>إصدار ومتابعه وإشراف وتنفيذ وإدارة للأعمال الأتية:</p>
           <ul className="card-list">
             {cvData.practicalExperience.map((item, idx) => (
-              <li key={idx} style={{ background: 'var(--bg-card)', padding: '1rem 1.5rem', borderRadius: '8px', marginBottom: '1rem', border: '1px solid var(--border-color)' }}>
+              <li key={idx} className="experience-item">
                 {item}
               </li>
             ))}

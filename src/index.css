@@ -280,6 +280,7 @@ ul {
   padding: 2.5rem;
   transition: var(--transition);
   height: 100%;
+  text-align: right;
 }
 
 .card:hover {
@@ -302,12 +303,12 @@ ul {
 }
 
 .card-list {
-  list-style-type: none;
+  text-align: right;
 }
 
 .card-list li {
   position: relative;
-  padding-right: 1.5rem;
+  padding-right: 1.2rem;
   margin-bottom: 0.8rem;
   color: var(--text-muted);
 }
@@ -315,11 +316,33 @@ ul {
 .card-list li::before {
   content: '✦';
   position: absolute;
+  top: 0.5em;
+  right: 0.2rem;
+  transform: none;
+  color: var(--accent-gold);
+  font-size: 0.8rem;
+}
+
+/* Specific style for Experience Items to avoid breaking Expertise layout */
+.experience-item {
+  background: var(--bg-card);
+  padding: 1rem 2.5rem 1rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  position: relative;
+  text-align: right;
+  list-style: none;
+}
+
+.card-list .experience-item::before {
+  content: '✦';
+  position: absolute;
+  top: 2rem;
   right: 0.4rem;
-  top: 50%;
   transform: translateY(-50%);
   color: var(--accent-gold);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* Timeline/Experience */
