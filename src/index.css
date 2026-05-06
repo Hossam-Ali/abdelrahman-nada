@@ -131,20 +131,7 @@ ul {
   align-items: center;
 }
 
-.nav-links {
-  display: flex;
-  gap: 2rem;
-}
 
-.nav-links a {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--text-muted);
-}
-
-.nav-links a:hover {
-  color: var(--accent-gold);
-}
 
 /* Hero Section */
 .hero {
@@ -551,19 +538,7 @@ ul {
   opacity: 1;
 }
 
-/* Honor Section */
-.honor-card {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
-.honor-desc {
-  font-size: 1.5rem;
-  font-style: italic;
-  color: var(--text-muted);
-  line-height: 2;
-}
 
 /* Modal */
 .modal-overlay {
@@ -686,8 +661,7 @@ ul {
   .hero-title { font-size: 2.2rem; }
   .hero-subtitle { font-size: 1.1rem; }
   .grid-cols-2, .grid-cols-3, .history-grid { grid-template-columns: 1fr; }
-  .nav-links { display: none; }
-  .gallery-item.large { grid-column: span 1; grid-row: span 1; }
+
   .container { padding: 0 1.5rem; }
   .philosophy-quote { font-size: 1.6rem; }
   .header { padding: 0.6rem 0; }
