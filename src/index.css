@@ -701,4 +701,11 @@ ul {
     align-items: center;
     gap: 1.5rem;
   }
+  .mobile-only {
+    display: block;
+  }
+}
+
+.mobile-only {
+  display: none;
 }

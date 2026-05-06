@@ -211,7 +211,9 @@ const Collaboration = () => (
 const Footer = () => (
   <footer className="footer" id="contact">
     <div className="container">
-      <h2 className="section-title text-center" style={{ display: 'block', marginBottom: '3rem' }}>تواصل معي</h2>
+      <h2 className="section-title text-center footer-title" style={{ display: 'block', marginBottom: '3rem' }}>
+        تواصل <br className="mobile-only" /> معي
+      </h2>
       <div className="contact-info">
         <a href={`https://wa.me/${cvData.contact.whatsapp.replace('+', '')}`} target="_blank" rel="noreferrer" className="contact-item">
           <div className="contact-icon"><Icons.Phone /></div>
