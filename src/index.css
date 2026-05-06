@@ -696,4 +696,9 @@ ul {
   .philosophy-quote { font-size: 1.6rem; }
   .header { padding: 0.6rem 0; }
   .logo { font-size: 1.1rem; }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
 }
