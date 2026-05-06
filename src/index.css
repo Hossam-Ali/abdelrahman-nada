@@ -699,7 +699,17 @@ ul {
   .contact-info {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
+  }
+  .contact-item {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .section-title::after {
+    right: 50%;
+    transform: translateX(50%);
+    width: 60px; /* Fixed width for better centering */
   }
   .mobile-only {
     display: block;
