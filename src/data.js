@@ -216,7 +216,7 @@ export const cvData = {
     'إنتاج محتوى يعزز المكانة في السوق أو المجتمع',
   ],
   contact: {
-    whatsapp: '+201228890160',
-    email: 'Rwasey@hotmail.com',
+    whatsapp: '+201093006056',
+    email: 'daralsharq@outlook.sa',
   },
 };
